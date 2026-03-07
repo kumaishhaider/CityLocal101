@@ -1,0 +1,1 @@
+<script src="<?php echo $siteURL; ?>/assets/js/main.js"></script>
