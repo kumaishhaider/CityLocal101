@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://citylocal101.co/</loc>
+    <loc>https://citylocal101.co/index.php</loc>
   </url>
 
   <url>
@@ -19,6 +19,14 @@
 
   <url>
     <loc>https://citylocal101.co/thank-you.php</loc>
+  </url>
+
+  <url>
+    <loc>https://citylocal101.co/privacy-policy.php</loc>
+  </url>
+
+  <url>
+    <loc>https://citylocal101.co/terms-conditions.php</loc>
   </url>
 
 </urlset>

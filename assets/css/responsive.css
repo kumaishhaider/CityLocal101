@@ -1,0 +1,61 @@
+@media (max-width: 991px) {
+    .hero-grid,
+    .stats-grid,
+    .services-grid,
+    .process-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav-phone {
+        display: none;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .nav-menu {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 14px;
+        padding-top: 16px;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .hero-grid,
+    .stats-grid,
+    .services-grid,
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-home {
+        padding: 70px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .section-heading h2,
+    .cta-inner h2,
+    .about-section h1,
+    .services-section h1,
+    .contact-section h1 {
+        font-size: 30px;
+    }
+}
